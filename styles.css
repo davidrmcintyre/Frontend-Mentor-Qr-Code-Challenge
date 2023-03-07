@@ -1,0 +1,47 @@
+/**colors used 
+
+main background: hsl(0,0%,100%)
+background: hsl(212, 45%, 89%)
+
+
+**/
+
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    max-width: 100%;
+}
+
+.qrcode, .qrcodecontent {
+    max-width: 340px;
+    border-radius: 20px;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(0,0%,100%);
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    }
+
+.qrcode {
+    box-shadow: 3px 3px 3px #d3d3d3;
+}
+
+img {
+    border-radius: 30px;
+    max-width: 100%;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 400;
+    opacity: 50%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+footer, .attribution {
+    visibility: hidden;
+}
